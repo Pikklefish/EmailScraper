@@ -7,12 +7,12 @@ The program will accept a user inputed link and output an excel sheet of emails 
 ## How to get started
 1. Clone/Fork or download the program file and open in IDE.
 
-2. Download these libraries in your terminal
-    pip3 install requests
-    pip3 install bs4
-    pip3 install BeautifulSoup
-    pip3 install lxml
-    pip install pandas openpyxl
+2. Download these libraries in your terminal <br>
+    `pip3 install requests`<br>
+    `pip3 install bs4`<br>
+    `pip3 install BeautifulSoup`<br>
+    `pip3 install lxml`<br>
+    `pip install pandas openpyxl`
 
 3. Follow propmts in the terminal
 
