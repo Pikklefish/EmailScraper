@@ -1,10 +1,13 @@
-from bs4 import BeautifulSoup
+### <<<Import necessary libraries>>> ###
+from bs4 import BeautifulSoup  ##Used for webscraping (divided objects into python object trees)
 import requests
 import requests.exceptions
 import urllib.parse
 from collections import deque
-import re
+import re  #Allows you to look for patterns in string (used to detect "@" patterns in email)
+import pandas as pd
 
+#Prompt user for information
 user_url = str(input("[+] Enter Target URL To Scan: "))
 urls = deque([user_url])
 
@@ -54,4 +57,7 @@ except KeyboardInterrupt:
 
 for mail in emails:
     print(mail)
+
+emails_df = pd.DataFrame(sorted(emails), columns=["Emails"])  # Create a DataFrame from the sorted emails
+emails_df.to_excel('emails.xlsx', index=False)  # Save the DataFrame to an Excel file
 
