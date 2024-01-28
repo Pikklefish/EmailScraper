@@ -18,6 +18,8 @@ The program will accept a user inputed link and output an excel sheet of emails 
 4. Turn on 2 Step Verification for your Gmail account in setting
 5. Go to `https://myaccount.google.com/apppasswords` and generate an app password names `python`.  16 character key will appear that python will use to access your gmail.
 6. Rename the `.env_example` file to `.env` and fill in the `GMAIL_KEY`
+7. Edit the `email_Template.txt` file with the email you want to send.
+8. Follow the Terminal to run the program.
 
 
 A sample excel sheet consisting of emails from the `https://umich.edu/` is included.
