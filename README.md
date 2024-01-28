@@ -1,4 +1,4 @@
-# EmailScraper
+# EmailScraper-Sender
 
 ## Main functionality
 The program will accept a user inputed link and output an excel sheet of emails scraped from the link.
@@ -14,7 +14,11 @@ The program will accept a user inputed link and output an excel sheet of emails 
     `pip3 install lxml`<br>
     `pip install pandas openpyxl`
 
-3. Follow propmts in the terminal
+3. Follow propmts in the terminal.
+4. Turn on 2 Step Verification for your Gmail account in setting
+5. Go to `https://myaccount.google.com/apppasswords` and generate an app password names `python`.  16 character key will appear that python will use to access your gmail.
+6. Rename the `.env_example` file to `.env` and fill in the `GMAIL_KEY`
+
 
 A sample excel sheet consisting of emails from the `https://umich.edu/` is included.
 
