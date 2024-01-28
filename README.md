@@ -1,1 +1,1 @@
-# EmailScrapper
+# EmailScraper
