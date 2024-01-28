@@ -1,18 +1,18 @@
 # EmailScraper
 
 ## Main functionality
-    The program will accept a user inputed link and output an excel sheet of emails scraped from the link.
+The program will accept a user inputed link and output an excel sheet of emails scraped from the link.
 
 
 ## How to get started
 1. Clone/Fork or download the program file and open in IDE.
 
 2. Download these libraries in your terminal
-    `pip3 install requests`
-    `pip3 install bs4`
-    `pip3 install BeautifulSoup`
-    `pip3 install lxml`
-    `pip install pandas openpyxl`
+    pip3 install requests
+    pip3 install bs4
+    pip3 install BeautifulSoup
+    pip3 install lxml
+    pip install pandas openpyxl
 
 3. Follow propmts in the terminal
 

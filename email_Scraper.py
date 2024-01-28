@@ -19,7 +19,7 @@ count = 0
 try: 
     while len(urls):
         count +=1
-        if count == 100:
+        if count == 100:  #will scrap the first 100 URLS from main page
             break
         url = urls.popleft()
         scraped_urls.add(url)
